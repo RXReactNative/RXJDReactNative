@@ -1,0 +1,73 @@
+platform :ios, '9.0'
+
+target 'RXJDReactNative' do
+    
+    
+    
+    pod 'RXExtenstion', :subspecs => [
+    'RXExGradient',
+    'RXExRXBlockTextField',
+    'RXExRXPickerView'
+    ]
+  
+  # 用于RN工程
+  ########
+  package_dir = File.dirname(__FILE__)
+  node_modules = nil
+
+  loop do
+      package_json = File.join(package_dir, 'package.json')
+      package_json_lock = File.join(package_dir, 'package-lock.json')
+      _node_modules = File.join(package_dir, 'node_modules')
+      
+      if File.exist?(package_json) && File.exist?(package_json_lock) && File.directory?(_node_modules)
+          node_modules = _node_modules
+          break
+      elsif package_dir == '/'
+          puts "RN package config Not Found!"
+          break
+      else
+          package_dir = File.expand_path('..', package_dir)
+      end
+  end
+  
+  if node_modules != nil
+      pod 'React', :path => File.join(node_modules, 'react-native'), :subspecs => [
+        'Core',
+        'CxxBridge',
+        'DevSupport',
+        'RCTText',
+        'RCTImage',
+        'RCTNetwork',
+        'RCTSettings',
+        'RCTVibration',
+        'RCTAnimation',
+        'RCTActionSheet',
+        'RCTGeolocation',
+        'RCTWebSocket',
+      
+        'ART',
+        'RCTBlob',
+        'RCTCameraRoll',
+        'RCTLinkingIOS',
+        'RCTGeolocation',
+        'RCTPushNotification'
+      ]
+      
+      pod 'yoga', :path => File.join(node_modules, 'react-native/ReactCommon/yoga')
+      
+      
+      pod 'glog', :podspec => File.join(node_modules, 'react-native/third-party-podspecs/glog.podspec')
+      pod 'Folly', :podspec => File.join(node_modules, 'react-native/third-party-podspecs/Folly.podspec')
+      
+      #第三方
+      pod 'CodePush', :path => File.join(node_modules, 'react-native-code-push')
+      pod 'BVLinearGradient', :path => File.join(node_modules, 'react-native-linear-gradient')
+  end
+
+  post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+      config.build_settings['SYMROOT'] = '${SRCROOT}/../build'
+    end
+  end
+end

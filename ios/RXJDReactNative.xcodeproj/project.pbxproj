@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B801B774217B12BB000CC930 /* RNRootPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B773217B12BB000CC930 /* RNRootPage.m */; };
+		B801B777217B7031000CC930 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B801B776217B7031000CC930 /* main.jsbundle */; };
+		B8CB3D06217A42C9006CB534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D05217A42C9006CB534 /* AppDelegate.m */; };
+		B8CB3D0E217A42CA006CB534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CB3D0D217A42CA006CB534 /* Assets.xcassets */; };
+		B8CB3D11217A42CA006CB534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CB3D0F217A42CA006CB534 /* LaunchScreen.storyboard */; };
+		B8CB3D14217A42CA006CB534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D13217A42CA006CB534 /* main.m */; };
+		B8CB3D38217A42EA006CB534 /* reactNative.md in Resources */ = {isa = PBXBuildFile; fileRef = B8CB3D19217A42EA006CB534 /* reactNative.md */; };
+		B8CB3D39217A42EA006CB534 /* RXRCTStretchImgViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D1E217A42EA006CB534 /* RXRCTStretchImgViewManager.m */; };
+		B8CB3D3A217A42EA006CB534 /* RXRCTStretchImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D1F217A42EA006CB534 /* RXRCTStretchImgView.m */; };
+		B8CB3D3B217A42EA006CB534 /* RXRCTTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D21217A42EA006CB534 /* RXRCTTextFieldManager.m */; };
+		B8CB3D3C217A42EA006CB534 /* RXRCTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D24217A42EA006CB534 /* RXRCTTextField.m */; };
+		B8CB3D3D217A42EA006CB534 /* RXRCTRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D26217A42EA006CB534 /* RXRCTRefreshControl.m */; };
+		B8CB3D3E217A42EA006CB534 /* RXRCTRefreshControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D29217A42EA006CB534 /* RXRCTRefreshControlManager.m */; };
+		B8CB3D3F217A42EA006CB534 /* NativePageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2C217A42EA006CB534 /* NativePageModule.m */; };
+		B8CB3D40217A42EA006CB534 /* NativeDialogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2D217A42EA006CB534 /* NativeDialogModule.m */; };
+		B8CB3D41217A42EA006CB534 /* NativePickerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2E217A42EA006CB534 /* NativePickerModule.m */; };
+		B8CB3D42217A42EA006CB534 /* NativeGettingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2F217A42EA006CB534 /* NativeGettingModule.m */; };
+		B8CB3D43217A42EA006CB534 /* NativeNetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D32217A42EA006CB534 /* NativeNetworkModule.m */; };
+		B8CB3D44217A42EA006CB534 /* RCTConvert+RXRCTComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D37217A42EA006CB534 /* RCTConvert+RXRCTComment.m */; };
+		C3D8EF4E417B9515E8BE830A /* libPods-RXJDReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467662CE3DFD8AB754E3B17F /* libPods-RXJDReactNative.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BB441B29C8B8F230B319E4C /* Pods-RXJDReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXJDReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXJDReactNative/Pods-RXJDReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		467662CE3DFD8AB754E3B17F /* libPods-RXJDReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RXJDReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BC9F4939157225E1369D4A /* Pods-RXReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXReactNative/Pods-RXReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		A38214478877F83D8CE9430B /* libPods-RXReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RXReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB787D3618543770CA9563 /* Pods-RXJDReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXJDReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXJDReactNative/Pods-RXJDReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		B801B76F217AF955000CC930 /* RXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXHeader.h; sourceTree = "<group>"; };
+		B801B770217AF965000CC930 /* RNHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNHeader.h; sourceTree = "<group>"; };
+		B801B772217B12BB000CC930 /* RNRootPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNRootPage.h; sourceTree = "<group>"; };
+		B801B773217B12BB000CC930 /* RNRootPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNRootPage.m; sourceTree = "<group>"; };
+		B801B776217B7031000CC930 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		B8CB3D02217A42C9006CB534 /* RXJDReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXJDReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CB3D04217A42C9006CB534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8CB3D05217A42C9006CB534 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8CB3D0D217A42CA006CB534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8CB3D10217A42CA006CB534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8CB3D12217A42CA006CB534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CB3D13217A42CA006CB534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8CB3D19217A42EA006CB534 /* reactNative.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = reactNative.md; sourceTree = "<group>"; };
+		B8CB3D1C217A42EA006CB534 /* RXRCTStretchImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTStretchImgView.h; sourceTree = "<group>"; };
+		B8CB3D1D217A42EA006CB534 /* RXRCTStretchImgViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTStretchImgViewManager.h; sourceTree = "<group>"; };
+		B8CB3D1E217A42EA006CB534 /* RXRCTStretchImgViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTStretchImgViewManager.m; sourceTree = "<group>"; };
+		B8CB3D1F217A42EA006CB534 /* RXRCTStretchImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTStretchImgView.m; sourceTree = "<group>"; };
+		B8CB3D21217A42EA006CB534 /* RXRCTTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTTextFieldManager.m; sourceTree = "<group>"; };
+		B8CB3D22217A42EA006CB534 /* RXRCTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTTextField.h; sourceTree = "<group>"; };
+		B8CB3D23217A42EA006CB534 /* RXRCTTextFieldManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTTextFieldManager.h; sourceTree = "<group>"; };
+		B8CB3D24217A42EA006CB534 /* RXRCTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTTextField.m; sourceTree = "<group>"; };
+		B8CB3D26217A42EA006CB534 /* RXRCTRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTRefreshControl.m; sourceTree = "<group>"; };
+		B8CB3D27217A42EA006CB534 /* RXRCTRefreshControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTRefreshControlManager.h; sourceTree = "<group>"; };
+		B8CB3D28217A42EA006CB534 /* RXRCTRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTRefreshControl.h; sourceTree = "<group>"; };
+		B8CB3D29217A42EA006CB534 /* RXRCTRefreshControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTRefreshControlManager.m; sourceTree = "<group>"; };
+		B8CB3D2B217A42EA006CB534 /* NativeNetworkModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeNetworkModule.h; sourceTree = "<group>"; };
+		B8CB3D2C217A42EA006CB534 /* NativePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativePageModule.m; sourceTree = "<group>"; };
+		B8CB3D2D217A42EA006CB534 /* NativeDialogModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeDialogModule.m; sourceTree = "<group>"; };
+		B8CB3D2E217A42EA006CB534 /* NativePickerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativePickerModule.m; sourceTree = "<group>"; };
+		B8CB3D2F217A42EA006CB534 /* NativeGettingModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeGettingModule.m; sourceTree = "<group>"; };
+		B8CB3D30217A42EA006CB534 /* NativeDialogModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeDialogModule.h; sourceTree = "<group>"; };
+		B8CB3D31217A42EA006CB534 /* NativePageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativePageModule.h; sourceTree = "<group>"; };
+		B8CB3D32217A42EA006CB534 /* NativeNetworkModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeNetworkModule.m; sourceTree = "<group>"; };
+		B8CB3D33217A42EA006CB534 /* NativeGettingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeGettingModule.h; sourceTree = "<group>"; };
+		B8CB3D34217A42EA006CB534 /* NativePickerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativePickerModule.h; sourceTree = "<group>"; };
+		B8CB3D36217A42EA006CB534 /* RCTConvert+RXRCTComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+RXRCTComment.h"; sourceTree = "<group>"; };
+		B8CB3D37217A42EA006CB534 /* RCTConvert+RXRCTComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+RXRCTComment.m"; sourceTree = "<group>"; };
+		BC23BAE2F6DE933A5A0A08CA /* Pods-RXReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXReactNative/Pods-RXReactNative.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8CB3CFF217A42C9006CB534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D8EF4E417B9515E8BE830A /* libPods-RXJDReactNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		452C332C38C13B49EF882D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A38214478877F83D8CE9430B /* libPods-RXReactNative.a */,
+				467662CE3DFD8AB754E3B17F /* libPods-RXJDReactNative.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7CE7D91CC8C8EB00C4CBA7 = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D03217A42C9006CB534 /* RXJDReactNative */,
+				6C7CE7E31CC8C8EC00C4CBA7 /* Products */,
+				F54027A9B3BE1C95A9BE2649 /* Pods */,
+				452C332C38C13B49EF882D9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7CE7E31CC8C8EC00C4CBA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D02217A42C9006CB534 /* RXJDReactNative.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B801B771217B125C000CC930 /* RNPage */ = {
+			isa = PBXGroup;
+			children = (
+				B801B772217B12BB000CC930 /* RNRootPage.h */,
+				B801B773217B12BB000CC930 /* RNRootPage.m */,
+			);
+			path = RNPage;
+			sourceTree = "<group>";
+		};
+		B801B775217B7015000CC930 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				B801B776217B7031000CC930 /* main.jsbundle */,
+			);
+			path = bundle;
+			sourceTree = SOURCE_ROOT;
+		};
+		B8CB3D03217A42C9006CB534 /* RXJDReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				B801B775217B7015000CC930 /* bundle */,
+				B8CB3D18217A42EA006CB534 /* ReactNative */,
+				B8CB3D04217A42C9006CB534 /* AppDelegate.h */,
+				B8CB3D05217A42C9006CB534 /* AppDelegate.m */,
+				B8CB3D0D217A42CA006CB534 /* Assets.xcassets */,
+				B8CB3D0F217A42CA006CB534 /* LaunchScreen.storyboard */,
+				B8CB3D12217A42CA006CB534 /* Info.plist */,
+				B8CB3D13217A42CA006CB534 /* main.m */,
+				B801B76F217AF955000CC930 /* RXHeader.h */,
+				B801B770217AF965000CC930 /* RNHeader.h */,
+			);
+			path = RXJDReactNative;
+			sourceTree = "<group>";
+		};
+		B8CB3D18217A42EA006CB534 /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D19217A42EA006CB534 /* reactNative.md */,
+				B8CB3D1A217A42EA006CB534 /* RNView */,
+				B8CB3D2A217A42EA006CB534 /* RNBridgeManger */,
+				B8CB3D35217A42EA006CB534 /* RNUtil */,
+				B801B771217B125C000CC930 /* RNPage */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		B8CB3D1A217A42EA006CB534 /* RNView */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D1B217A42EA006CB534 /* RXStretchImgView */,
+				B8CB3D20217A42EA006CB534 /* RXTextField */,
+				B8CB3D25217A42EA006CB534 /* RXRefreshView */,
+			);
+			path = RNView;
+			sourceTree = "<group>";
+		};
+		B8CB3D1B217A42EA006CB534 /* RXStretchImgView */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D1C217A42EA006CB534 /* RXRCTStretchImgView.h */,
+				B8CB3D1F217A42EA006CB534 /* RXRCTStretchImgView.m */,
+				B8CB3D1D217A42EA006CB534 /* RXRCTStretchImgViewManager.h */,
+				B8CB3D1E217A42EA006CB534 /* RXRCTStretchImgViewManager.m */,
+			);
+			path = RXStretchImgView;
+			sourceTree = "<group>";
+		};
+		B8CB3D20217A42EA006CB534 /* RXTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D22217A42EA006CB534 /* RXRCTTextField.h */,
+				B8CB3D24217A42EA006CB534 /* RXRCTTextField.m */,
+				B8CB3D23217A42EA006CB534 /* RXRCTTextFieldManager.h */,
+				B8CB3D21217A42EA006CB534 /* RXRCTTextFieldManager.m */,
+			);
+			path = RXTextField;
+			sourceTree = "<group>";
+		};
+		B8CB3D25217A42EA006CB534 /* RXRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D28217A42EA006CB534 /* RXRCTRefreshControl.h */,
+				B8CB3D26217A42EA006CB534 /* RXRCTRefreshControl.m */,
+				B8CB3D27217A42EA006CB534 /* RXRCTRefreshControlManager.h */,
+				B8CB3D29217A42EA006CB534 /* RXRCTRefreshControlManager.m */,
+			);
+			path = RXRefreshView;
+			sourceTree = "<group>";
+		};
+		B8CB3D2A217A42EA006CB534 /* RNBridgeManger */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D30217A42EA006CB534 /* NativeDialogModule.h */,
+				B8CB3D2D217A42EA006CB534 /* NativeDialogModule.m */,
+				B8CB3D33217A42EA006CB534 /* NativeGettingModule.h */,
+				B8CB3D2F217A42EA006CB534 /* NativeGettingModule.m */,
+				B8CB3D2B217A42EA006CB534 /* NativeNetworkModule.h */,
+				B8CB3D32217A42EA006CB534 /* NativeNetworkModule.m */,
+				B8CB3D31217A42EA006CB534 /* NativePageModule.h */,
+				B8CB3D2C217A42EA006CB534 /* NativePageModule.m */,
+				B8CB3D34217A42EA006CB534 /* NativePickerModule.h */,
+				B8CB3D2E217A42EA006CB534 /* NativePickerModule.m */,
+			);
+			path = RNBridgeManger;
+			sourceTree = "<group>";
+		};
+		B8CB3D35217A42EA006CB534 /* RNUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB3D36217A42EA006CB534 /* RCTConvert+RXRCTComment.h */,
+				B8CB3D37217A42EA006CB534 /* RCTConvert+RXRCTComment.m */,
+			);
+			path = RNUtil;
+			sourceTree = "<group>";
+		};
+		F54027A9B3BE1C95A9BE2649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76BC9F4939157225E1369D4A /* Pods-RXReactNative.debug.xcconfig */,
+				BC23BAE2F6DE933A5A0A08CA /* Pods-RXReactNative.release.xcconfig */,
+				ADEB787D3618543770CA9563 /* Pods-RXJDReactNative.debug.xcconfig */,
+				3BB441B29C8B8F230B319E4C /* Pods-RXJDReactNative.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8CB3D01217A42C9006CB534 /* RXJDReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CB3D15217A42CA006CB534 /* Build configuration list for PBXNativeTarget "RXJDReactNative" */;
+			buildPhases = (
+				58068CAE26F86F128084DB44 /* [CP] Check Pods Manifest.lock */,
+				B8CB3CFE217A42C9006CB534 /* Sources */,
+				B8CB3CFF217A42C9006CB534 /* Frameworks */,
+				B8CB3D00217A42C9006CB534 /* Resources */,
+				29F0ECE8284B121F3A1D4B40 /* [CP] Embed Pods Frameworks */,
+				B05B46EAEE38E50143D4838B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RXJDReactNative;
+			productName = RXJDReactNative;
+			productReference = B8CB3D02217A42C9006CB534 /* RXJDReactNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7CE7DA1CC8C8EC00C4CBA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = srxboys;
+				TargetAttributes = {
+					B8CB3D01217A42C9006CB534 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 9BXVQUSA4E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C7CE7DD1CC8C8EC00C4CBA7 /* Build configuration list for PBXProject "RXJDReactNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C7CE7D91CC8C8EB00C4CBA7;
+			productRefGroup = 6C7CE7E31CC8C8EC00C4CBA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8CB3D01217A42C9006CB534 /* RXJDReactNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CB3D00217A42C9006CB534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CB3D11217A42CA006CB534 /* LaunchScreen.storyboard in Resources */,
+				B8CB3D0E217A42CA006CB534 /* Assets.xcassets in Resources */,
+				B8CB3D38217A42EA006CB534 /* reactNative.md in Resources */,
+				B801B777217B7031000CC930 /* main.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29F0ECE8284B121F3A1D4B40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RXJDReactNative/Pods-RXJDReactNative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58068CAE26F86F128084DB44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RXJDReactNative-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B05B46EAEE38E50143D4838B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RXJDReactNative/Pods-RXJDReactNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8CB3CFE217A42C9006CB534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CB3D3B217A42EA006CB534 /* RXRCTTextFieldManager.m in Sources */,
+				B8CB3D44217A42EA006CB534 /* RCTConvert+RXRCTComment.m in Sources */,
+				B8CB3D14217A42CA006CB534 /* main.m in Sources */,
+				B8CB3D40217A42EA006CB534 /* NativeDialogModule.m in Sources */,
+				B8CB3D3D217A42EA006CB534 /* RXRCTRefreshControl.m in Sources */,
+				B8CB3D3E217A42EA006CB534 /* RXRCTRefreshControlManager.m in Sources */,
+				B8CB3D41217A42EA006CB534 /* NativePickerModule.m in Sources */,
+				B801B774217B12BB000CC930 /* RNRootPage.m in Sources */,
+				B8CB3D39217A42EA006CB534 /* RXRCTStretchImgViewManager.m in Sources */,
+				B8CB3D06217A42C9006CB534 /* AppDelegate.m in Sources */,
+				B8CB3D43217A42EA006CB534 /* NativeNetworkModule.m in Sources */,
+				B8CB3D42217A42EA006CB534 /* NativeGettingModule.m in Sources */,
+				B8CB3D3F217A42EA006CB534 /* NativePageModule.m in Sources */,
+				B8CB3D3C217A42EA006CB534 /* RXRCTTextField.m in Sources */,
+				B8CB3D3A217A42EA006CB534 /* RXRCTStretchImgView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8CB3D0F217A42CA006CB534 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CB3D10217A42CA006CB534 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7CE7F71CC8C8EC00C4CBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C7CE7F81CC8C8EC00C4CBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8CB3D16217A42CA006CB534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEB787D3618543770CA9563 /* Pods-RXJDReactNative.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BXVQUSA4E;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREFIX_HEADER = RXJDReactNative/RXHeader.h;
+				INFOPLIST_FILE = RXJDReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = srxboys.RXJDReactNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8CB3D17217A42CA006CB534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB441B29C8B8F230B319E4C /* Pods-RXJDReactNative.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BXVQUSA4E;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREFIX_HEADER = RXJDReactNative/RXHeader.h;
+				INFOPLIST_FILE = RXJDReactNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = srxboys.RXJDReactNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7CE7DD1CC8C8EC00C4CBA7 /* Build configuration list for PBXProject "RXJDReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7CE7F71CC8C8EC00C4CBA7 /* Debug */,
+				6C7CE7F81CC8C8EC00C4CBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CB3D15217A42CA006CB534 /* Build configuration list for PBXNativeTarget "RXJDReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CB3D16217A42CA006CB534 /* Debug */,
+				B8CB3D17217A42CA006CB534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7CE7DA1CC8C8EC00C4CBA7 /* Project object */;
+}
