@@ -7,7 +7,7 @@
 'use strict'
 import React, { Component } from 'react';
 
-import WYBInvest from './WYBInvest'
+import Home from './Home'
 
 import { createStackNavigator,NavigationActions } from 'react-navigation';
 // import CardStackStyleInterpolator from 'react-navigation/src/views/StackView/StackViewStyleInterpolator';
@@ -15,7 +15,7 @@ import { createStackNavigator,NavigationActions } from 'react-navigation';
 const RootStack =  createStackNavigator(
   {
     index: {
-      screen :  WYBInvest,
+      screen :  Home,
       navigationOptions: {} // 此处设置了, 会覆盖组件内的`static navigationOptions`设置
     },
 
