@@ -18,3 +18,4 @@ profile
 *.moved-aside
 *.xcuserstate
 Pods/
+Profile.lock

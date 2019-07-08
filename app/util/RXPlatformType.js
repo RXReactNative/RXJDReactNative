@@ -14,10 +14,10 @@
 import React from 'react';
 
 import {
- StyleSheet,
- PixelRatio,
- Dimensions,
- Platform
+    StyleSheet,
+    PixelRatio,
+    Dimensions,
+    Platform
  } from 'react-native'
 
 const P_WIDTH = 375;
