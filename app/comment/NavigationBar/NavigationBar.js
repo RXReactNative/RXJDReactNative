@@ -19,7 +19,7 @@ import {
 
 import PropTypes from 'prop-types';
 
-import {ISIphoneX, ISIphone,ISAndroid, IFIphone, IFIphoneX, DeviceWidth, DeviceHeight} from '../../util/RXPlatformType.js'
+import {IFIphoneX, DeviceWidth} from '../../util/RXPlatformType.js'
 
 
 /**

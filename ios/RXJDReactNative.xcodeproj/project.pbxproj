@@ -7,25 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B801B774217B12BB000CC930 /* RNRootPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B801B773217B12BB000CC930 /* RNRootPage.m */; };
-		B801B777217B7031000CC930 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B801B776217B7031000CC930 /* main.jsbundle */; };
+		B89D0EAF22D490750089081B /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B89D0EAE22D490750089081B /* main.jsbundle */; };
 		B8CB3D06217A42C9006CB534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D05217A42C9006CB534 /* AppDelegate.m */; };
 		B8CB3D0E217A42CA006CB534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CB3D0D217A42CA006CB534 /* Assets.xcassets */; };
 		B8CB3D11217A42CA006CB534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CB3D0F217A42CA006CB534 /* LaunchScreen.storyboard */; };
 		B8CB3D14217A42CA006CB534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D13217A42CA006CB534 /* main.m */; };
-		B8CB3D38217A42EA006CB534 /* reactNative.md in Resources */ = {isa = PBXBuildFile; fileRef = B8CB3D19217A42EA006CB534 /* reactNative.md */; };
-		B8CB3D39217A42EA006CB534 /* RXRCTStretchImgViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D1E217A42EA006CB534 /* RXRCTStretchImgViewManager.m */; };
-		B8CB3D3A217A42EA006CB534 /* RXRCTStretchImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D1F217A42EA006CB534 /* RXRCTStretchImgView.m */; };
-		B8CB3D3B217A42EA006CB534 /* RXRCTTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D21217A42EA006CB534 /* RXRCTTextFieldManager.m */; };
-		B8CB3D3C217A42EA006CB534 /* RXRCTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D24217A42EA006CB534 /* RXRCTTextField.m */; };
-		B8CB3D3D217A42EA006CB534 /* RXRCTRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D26217A42EA006CB534 /* RXRCTRefreshControl.m */; };
-		B8CB3D3E217A42EA006CB534 /* RXRCTRefreshControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D29217A42EA006CB534 /* RXRCTRefreshControlManager.m */; };
-		B8CB3D3F217A42EA006CB534 /* NativePageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2C217A42EA006CB534 /* NativePageModule.m */; };
-		B8CB3D40217A42EA006CB534 /* NativeDialogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2D217A42EA006CB534 /* NativeDialogModule.m */; };
-		B8CB3D41217A42EA006CB534 /* NativePickerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2E217A42EA006CB534 /* NativePickerModule.m */; };
-		B8CB3D42217A42EA006CB534 /* NativeGettingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D2F217A42EA006CB534 /* NativeGettingModule.m */; };
-		B8CB3D43217A42EA006CB534 /* NativeNetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D32217A42EA006CB534 /* NativeNetworkModule.m */; };
-		B8CB3D44217A42EA006CB534 /* RCTConvert+RXRCTComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CB3D37217A42EA006CB534 /* RCTConvert+RXRCTComment.m */; };
 		C3D8EF4E417B9515E8BE830A /* libPods-RXJDReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467662CE3DFD8AB754E3B17F /* libPods-RXJDReactNative.a */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +23,8 @@
 		ADEB787D3618543770CA9563 /* Pods-RXJDReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXJDReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXJDReactNative/Pods-RXJDReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 		B801B76F217AF955000CC930 /* RXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXHeader.h; sourceTree = "<group>"; };
 		B801B770217AF965000CC930 /* RNHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNHeader.h; sourceTree = "<group>"; };
-		B801B772217B12BB000CC930 /* RNRootPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNRootPage.h; sourceTree = "<group>"; };
-		B801B773217B12BB000CC930 /* RNRootPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNRootPage.m; sourceTree = "<group>"; };
-		B801B776217B7031000CC930 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		B89D0EA822D490070089081B /* PackageRNBundle.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = PackageRNBundle.sh; sourceTree = "<group>"; };
+		B89D0EAE22D490750089081B /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		B8CB3D02217A42C9006CB534 /* RXJDReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXJDReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8CB3D04217A42C9006CB534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8CB3D05217A42C9006CB534 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,31 +32,6 @@
 		B8CB3D10217A42CA006CB534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8CB3D12217A42CA006CB534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8CB3D13217A42CA006CB534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B8CB3D19217A42EA006CB534 /* reactNative.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = reactNative.md; sourceTree = "<group>"; };
-		B8CB3D1C217A42EA006CB534 /* RXRCTStretchImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTStretchImgView.h; sourceTree = "<group>"; };
-		B8CB3D1D217A42EA006CB534 /* RXRCTStretchImgViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTStretchImgViewManager.h; sourceTree = "<group>"; };
-		B8CB3D1E217A42EA006CB534 /* RXRCTStretchImgViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTStretchImgViewManager.m; sourceTree = "<group>"; };
-		B8CB3D1F217A42EA006CB534 /* RXRCTStretchImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTStretchImgView.m; sourceTree = "<group>"; };
-		B8CB3D21217A42EA006CB534 /* RXRCTTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTTextFieldManager.m; sourceTree = "<group>"; };
-		B8CB3D22217A42EA006CB534 /* RXRCTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTTextField.h; sourceTree = "<group>"; };
-		B8CB3D23217A42EA006CB534 /* RXRCTTextFieldManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTTextFieldManager.h; sourceTree = "<group>"; };
-		B8CB3D24217A42EA006CB534 /* RXRCTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTTextField.m; sourceTree = "<group>"; };
-		B8CB3D26217A42EA006CB534 /* RXRCTRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTRefreshControl.m; sourceTree = "<group>"; };
-		B8CB3D27217A42EA006CB534 /* RXRCTRefreshControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTRefreshControlManager.h; sourceTree = "<group>"; };
-		B8CB3D28217A42EA006CB534 /* RXRCTRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRCTRefreshControl.h; sourceTree = "<group>"; };
-		B8CB3D29217A42EA006CB534 /* RXRCTRefreshControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRCTRefreshControlManager.m; sourceTree = "<group>"; };
-		B8CB3D2B217A42EA006CB534 /* NativeNetworkModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeNetworkModule.h; sourceTree = "<group>"; };
-		B8CB3D2C217A42EA006CB534 /* NativePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativePageModule.m; sourceTree = "<group>"; };
-		B8CB3D2D217A42EA006CB534 /* NativeDialogModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeDialogModule.m; sourceTree = "<group>"; };
-		B8CB3D2E217A42EA006CB534 /* NativePickerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativePickerModule.m; sourceTree = "<group>"; };
-		B8CB3D2F217A42EA006CB534 /* NativeGettingModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeGettingModule.m; sourceTree = "<group>"; };
-		B8CB3D30217A42EA006CB534 /* NativeDialogModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeDialogModule.h; sourceTree = "<group>"; };
-		B8CB3D31217A42EA006CB534 /* NativePageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativePageModule.h; sourceTree = "<group>"; };
-		B8CB3D32217A42EA006CB534 /* NativeNetworkModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeNetworkModule.m; sourceTree = "<group>"; };
-		B8CB3D33217A42EA006CB534 /* NativeGettingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeGettingModule.h; sourceTree = "<group>"; };
-		B8CB3D34217A42EA006CB534 /* NativePickerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativePickerModule.h; sourceTree = "<group>"; };
-		B8CB3D36217A42EA006CB534 /* RCTConvert+RXRCTComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+RXRCTComment.h"; sourceTree = "<group>"; };
-		B8CB3D37217A42EA006CB534 /* RCTConvert+RXRCTComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+RXRCTComment.m"; sourceTree = "<group>"; };
 		BC23BAE2F6DE933A5A0A08CA /* Pods-RXReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXReactNative/Pods-RXReactNative.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +59,8 @@
 		6C7CE7D91CC8C8EB00C4CBA7 = {
 			isa = PBXGroup;
 			children = (
+				B89D0EAB22D490680089081B /* bundle */,
+				B89D0EA722D490070089081B /* Script */,
 				B8CB3D03217A42C9006CB534 /* RXJDReactNative */,
 				6C7CE7E31CC8C8EC00C4CBA7 /* Products */,
 				F54027A9B3BE1C95A9BE2649 /* Pods */,
@@ -114,28 +76,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B801B771217B125C000CC930 /* RNPage */ = {
+		B89D0EA722D490070089081B /* Script */ = {
 			isa = PBXGroup;
 			children = (
-				B801B772217B12BB000CC930 /* RNRootPage.h */,
-				B801B773217B12BB000CC930 /* RNRootPage.m */,
+				B89D0EA822D490070089081B /* PackageRNBundle.sh */,
 			);
-			path = RNPage;
+			path = Script;
 			sourceTree = "<group>";
 		};
-		B801B775217B7015000CC930 /* bundle */ = {
+		B89D0EAB22D490680089081B /* bundle */ = {
 			isa = PBXGroup;
 			children = (
-				B801B776217B7031000CC930 /* main.jsbundle */,
+				B89D0EAE22D490750089081B /* main.jsbundle */,
 			);
 			path = bundle;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		B8CB3D03217A42C9006CB534 /* RXJDReactNative */ = {
 			isa = PBXGroup;
 			children = (
-				B801B775217B7015000CC930 /* bundle */,
-				B8CB3D18217A42EA006CB534 /* ReactNative */,
 				B8CB3D04217A42C9006CB534 /* AppDelegate.h */,
 				B8CB3D05217A42C9006CB534 /* AppDelegate.m */,
 				B8CB3D0D217A42CA006CB534 /* Assets.xcassets */,
@@ -146,87 +105,6 @@
 				B801B770217AF965000CC930 /* RNHeader.h */,
 			);
 			path = RXJDReactNative;
-			sourceTree = "<group>";
-		};
-		B8CB3D18217A42EA006CB534 /* ReactNative */ = {
-			isa = PBXGroup;
-			children = (
-				B8CB3D19217A42EA006CB534 /* reactNative.md */,
-				B8CB3D1A217A42EA006CB534 /* RNView */,
-				B8CB3D2A217A42EA006CB534 /* RNBridgeManger */,
-				B8CB3D35217A42EA006CB534 /* RNUtil */,
-				B801B771217B125C000CC930 /* RNPage */,
-			);
-			path = ReactNative;
-			sourceTree = "<group>";
-		};
-		B8CB3D1A217A42EA006CB534 /* RNView */ = {
-			isa = PBXGroup;
-			children = (
-				B8CB3D1B217A42EA006CB534 /* RXStretchImgView */,
-				B8CB3D20217A42EA006CB534 /* RXTextField */,
-				B8CB3D25217A42EA006CB534 /* RXRefreshView */,
-			);
-			path = RNView;
-			sourceTree = "<group>";
-		};
-		B8CB3D1B217A42EA006CB534 /* RXStretchImgView */ = {
-			isa = PBXGroup;
-			children = (
-				B8CB3D1C217A42EA006CB534 /* RXRCTStretchImgView.h */,
-				B8CB3D1F217A42EA006CB534 /* RXRCTStretchImgView.m */,
-				B8CB3D1D217A42EA006CB534 /* RXRCTStretchImgViewManager.h */,
-				B8CB3D1E217A42EA006CB534 /* RXRCTStretchImgViewManager.m */,
-			);
-			path = RXStretchImgView;
-			sourceTree = "<group>";
-		};
-		B8CB3D20217A42EA006CB534 /* RXTextField */ = {
-			isa = PBXGroup;
-			children = (
-				B8CB3D22217A42EA006CB534 /* RXRCTTextField.h */,
-				B8CB3D24217A42EA006CB534 /* RXRCTTextField.m */,
-				B8CB3D23217A42EA006CB534 /* RXRCTTextFieldManager.h */,
-				B8CB3D21217A42EA006CB534 /* RXRCTTextFieldManager.m */,
-			);
-			path = RXTextField;
-			sourceTree = "<group>";
-		};
-		B8CB3D25217A42EA006CB534 /* RXRefreshView */ = {
-			isa = PBXGroup;
-			children = (
-				B8CB3D28217A42EA006CB534 /* RXRCTRefreshControl.h */,
-				B8CB3D26217A42EA006CB534 /* RXRCTRefreshControl.m */,
-				B8CB3D27217A42EA006CB534 /* RXRCTRefreshControlManager.h */,
-				B8CB3D29217A42EA006CB534 /* RXRCTRefreshControlManager.m */,
-			);
-			path = RXRefreshView;
-			sourceTree = "<group>";
-		};
-		B8CB3D2A217A42EA006CB534 /* RNBridgeManger */ = {
-			isa = PBXGroup;
-			children = (
-				B8CB3D30217A42EA006CB534 /* NativeDialogModule.h */,
-				B8CB3D2D217A42EA006CB534 /* NativeDialogModule.m */,
-				B8CB3D33217A42EA006CB534 /* NativeGettingModule.h */,
-				B8CB3D2F217A42EA006CB534 /* NativeGettingModule.m */,
-				B8CB3D2B217A42EA006CB534 /* NativeNetworkModule.h */,
-				B8CB3D32217A42EA006CB534 /* NativeNetworkModule.m */,
-				B8CB3D31217A42EA006CB534 /* NativePageModule.h */,
-				B8CB3D2C217A42EA006CB534 /* NativePageModule.m */,
-				B8CB3D34217A42EA006CB534 /* NativePickerModule.h */,
-				B8CB3D2E217A42EA006CB534 /* NativePickerModule.m */,
-			);
-			path = RNBridgeManger;
-			sourceTree = "<group>";
-		};
-		B8CB3D35217A42EA006CB534 /* RNUtil */ = {
-			isa = PBXGroup;
-			children = (
-				B8CB3D36217A42EA006CB534 /* RCTConvert+RXRCTComment.h */,
-				B8CB3D37217A42EA006CB534 /* RCTConvert+RXRCTComment.m */,
-			);
-			path = RNUtil;
 			sourceTree = "<group>";
 		};
 		F54027A9B3BE1C95A9BE2649 /* Pods */ = {
@@ -248,6 +126,7 @@
 			buildConfigurationList = B8CB3D15217A42CA006CB534 /* Build configuration list for PBXNativeTarget "RXJDReactNative" */;
 			buildPhases = (
 				58068CAE26F86F128084DB44 /* [CP] Check Pods Manifest.lock */,
+				B89D0EAA22D490320089081B /* [RN] Bundle */,
 				B8CB3CFE217A42C9006CB534 /* Sources */,
 				B8CB3CFF217A42C9006CB534 /* Frameworks */,
 				B8CB3D00217A42C9006CB534 /* Resources */,
@@ -284,6 +163,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89D0EAF22D490750089081B /* main.jsbundle in Resources */,
 				B8CB3D11217A42CA006CB534 /* LaunchScreen.storyboard in Resources */,
 				B8CB3D0E217A42CA006CB534 /* Assets.xcassets in Resources */,
-				B8CB3D38217A42EA006CB534 /* reactNative.md in Resources */,
-				B801B777217B7031000CC930 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +239,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RXJDReactNative/Pods-RXJDReactNative-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B89D0EAA22D490320089081B /* [RN] Bundle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[RN] Bundle";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/Script/PackageRNBundle.sh\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -367,21 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CB3D3B217A42EA006CB534 /* RXRCTTextFieldManager.m in Sources */,
-				B8CB3D44217A42EA006CB534 /* RCTConvert+RXRCTComment.m in Sources */,
 				B8CB3D14217A42CA006CB534 /* main.m in Sources */,
-				B8CB3D40217A42EA006CB534 /* NativeDialogModule.m in Sources */,
-				B8CB3D3D217A42EA006CB534 /* RXRCTRefreshControl.m in Sources */,
-				B8CB3D3E217A42EA006CB534 /* RXRCTRefreshControlManager.m in Sources */,
-				B8CB3D41217A42EA006CB534 /* NativePickerModule.m in Sources */,
-				B801B774217B12BB000CC930 /* RNRootPage.m in Sources */,
-				B8CB3D39217A42EA006CB534 /* RXRCTStretchImgViewManager.m in Sources */,
 				B8CB3D06217A42C9006CB534 /* AppDelegate.m in Sources */,
-				B8CB3D43217A42EA006CB534 /* NativeNetworkModule.m in Sources */,
-				B8CB3D42217A42EA006CB534 /* NativeGettingModule.m in Sources */,
-				B8CB3D3F217A42EA006CB534 /* NativePageModule.m in Sources */,
-				B8CB3D3C217A42EA006CB534 /* RXRCTTextField.m in Sources */,
-				B8CB3D3A217A42EA006CB534 /* RXRCTStretchImgView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

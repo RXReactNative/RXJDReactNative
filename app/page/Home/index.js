@@ -1,40 +1,61 @@
 /**
- * @this NavigationBar : 无忧宝投资页入口
+ * @this 
  *
  * author : srxboys
- * @flow  : 用于 静态语法检查
+ * @flow  
  */
+
 'use strict'
-import React, { Component } from 'react';
+import React, { Component } from './node_modules/react'
+import {
+    Text,
+    View,
+    Image,
+    ScrollView,
+    NativeModules,
+    LayoutAnimation,
+    NativeEventEmitter,
+    TouchableHighlight
+} from 'react-native'
 
-import Home from './Home'
+import PropTypes from './node_modules/prop-types';
 
-import { createStackNavigator,NavigationActions } from 'react-navigation';
-// import CardStackStyleInterpolator from 'react-navigation/src/views/StackView/StackViewStyleInterpolator';
+import {ISIphoneX, ISIphone,ISAndroid, IFIphone, IFIphoneX, DeviceWidth, DeviceHeight} from '../../util/RXPlatformType.js'
 
-const RootStack =  createStackNavigator(
-  {
-    index: {
-      screen :  Home,
-      navigationOptions: {} // 此处设置了, 会覆盖组件内的`static navigationOptions`设置
-    },
 
-  },
-  {
-    initialRouteName:'index', //设置堆栈的默认屏幕
-    mode : 'card', //屏幕渲染和转换的样式
-    headerMode: 'none'   //页眉的呈现方式
+export default class Home extends Component {
+ constructor(props){
+   super(props);
+   this.state = ({
 
-    // ,transitionConfig: () => ({
-    //     screenInterpolator: CardStackStyleInterpolator.forHorizontal,
-    // })
-  }
-);
+               });
+ }
 
-export default class WYBIndex extends Component<{}> {
-  render() {
-      return (
-          <RootStack screenProps={this.props.parameter}/>
-      )
-  }
+ static defaultProps = {
+   //这个可以不写，但是为了记录这个是 index.js 里面传过来的
+   screenProps:{
+
+   }
+ }
+
+ componentDidMount(){
+
+ }
+
+ componentWillUnmount() {
+
+ }
+
+ refresh() {
+
+ }
+
+ render() {
+   return(
+         <View style={{flex:1}}>
+
+         </View>
+   );
+ }
+
 }

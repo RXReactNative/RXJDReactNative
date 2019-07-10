@@ -14,28 +14,41 @@
 import React from 'react';
 
 import {
-    StyleSheet,
-    PixelRatio,
-    Dimensions,
-    Platform
+	StyleSheet,
+	PixelRatio,
+	Dimensions,
+	Platform
  } from 'react-native'
 
-const P_WIDTH = 375;
-const P_HEIGHT = 812;
+const X_WIDTH = 375;
+const X_HEIGHT = 812;
+const XSMAX_WIDTH = 414;
+const XSMAX_HEIGHT = 896;
+const PAD_WIDTH = 768;
+const PAD_HEIGHT = 1024;
 
-export const DeviceWidth = Dimensions.get('window').width;      //设备的宽度
-export const DeviceHeight = Dimensions.get('window').height;    //设备的高度
+const { height, width} = Dimensions.get('window');
+
+export const DeviceWidth = Platform.OS === 'web'? document.documentElement.clientWidth: width;
+export const DeviceHeight = Platform.OS === 'web'? document.documentElement.clientHeight: height;
+
 
 /**
  * 判断是否为iphoneX
  * @returns {boolean}
  */
-export function ISIphoneX(){
-  return (
-      Platform.OS === 'ios' &&
-      ((DeviceWidth === P_WIDTH && DeviceHeight === P_HEIGHT) ||
-          (DeviceWidth === P_HEIGHT && DeviceHeight === P_WIDTH))
-  )
+export function ISIphoneX() {
+	if (Platform.OS === 'web') return false; 
+	return (
+		Platform.OS === 'ios' &&
+		//Portrait && (ios => PortraitUpsideDown)  人像
+		((DeviceHeight === X_HEIGHT && DeviceWidth === X_WIDTH) || 
+		// OrientationLandscapeLeft OrientationLandscapeRight  风景
+		(DeviceHeight === X_WIDTH && DeviceWidth === X_HEIGHT)) ||
+
+		((DeviceHeight === XSMAX_HEIGHT && DeviceWidth === XSMAX_WIDTH) ||
+		(DeviceHeight === XSMAX_WIDTH && DeviceWidth === XSMAX_HEIGHT))
+	);
 }
 
 /**
@@ -44,7 +57,7 @@ export function ISIphoneX(){
  */
 export function ISIphone(){
   return (
-      Platform.OS === 'ios'
+		Platform.OS === 'ios'
   )
 }
 
@@ -54,7 +67,7 @@ export function ISIphone(){
  */
 export function ISAndroid(){
   return (
-      ISIphone()?false:true
+		ISIphone()?false:true
   )
 }
 
@@ -67,7 +80,7 @@ export function ISAndroid(){
  * @returns {*}
  */
 export function IFIphone(iosStyle:any, androidStyle:any) {
-    return IFIphoneX(iosStyle, iosStyle, androidStyle);
+	return IFIphoneX(iosStyle, iosStyle, androidStyle);
 }
 
 /**
@@ -78,12 +91,12 @@ export function IFIphone(iosStyle:any, androidStyle:any) {
  * @returns {*}
  */
 export function IFIphoneX(iphoneXStyle:any, iosStyle:any, androidStyle:any) {
-    if (ISIphoneX()) {
-        return iphoneXStyle;
-    } else if (ISIphone()) {
-        return iosStyle
-    } else {
-        if (androidStyle || androidStyle===0 ) return androidStyle;
-        return iosStyle
-    }
+	if (ISIphoneX()) {
+		return iphoneXStyle;
+	} else if (ISIphone()) {
+		return iosStyle
+	} else {
+		if (androidStyle || androidStyle===0 ) return androidStyle;
+		return iosStyle
+	}
 }

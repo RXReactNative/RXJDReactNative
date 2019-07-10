@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <React/RCTBundleURLProvider.h>
+#import <React/RCTRootView.h>
 
 @interface AppDelegate ()
 
@@ -16,10 +18,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-  _window.backgroundColor = [UIColor whiteColor];
-  _window.rootViewController = [RNRootPage createNativeView:launchOptions];
-  [_window makeKeyAndVisible];
+  
+    NSURL *jsCodeLocation;
+    
+//    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios&dev=true"];
+    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForFallbackResource:nil fallbackExtension:nil];
+    
+    
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                        moduleName:@"App"
+                                                 initialProperties:nil
+                                                     launchOptions:launchOptions];
+    rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
+    
+    UIViewController *rootViewController = [UIViewController new];
+    rootViewController.view = rootView;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = rootViewController;
+    [self.window makeKeyAndVisible];
   return YES;
 }
 

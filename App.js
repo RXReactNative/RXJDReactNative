@@ -9,10 +9,10 @@
 'use strict'
 import React, { Component} from 'react';
 
-import StartUpPage from './app/page/StartUp/StartUp'
+import StartUpPage from './app/page/StartUp/index'
 
 //默认应用的容器组件
-export default class App extends Component<{}> {
+export default class App extends Component {
 
     render() {
         // console.log(this.props.entrance);
